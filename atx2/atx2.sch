@@ -1,0 +1,258 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5EDE137A
+P 4700 1100
+F 0 "J3" H 4780 1092 50  0000 L CNN
+F 1 "Conn_01x02" H 4780 1001 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_Wuerth_691311400102_P7.62mm" H 4700 1100 50  0001 C CNN
+F 3 "~" H 4700 1100 50  0001 C CNN
+	1    4700 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5EDE1AE0
+P 4700 1500
+F 0 "J4" H 4780 1492 50  0000 L CNN
+F 1 "Conn_01x02" H 4780 1401 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_Wuerth_691311400102_P7.62mm" H 4700 1500 50  0001 C CNN
+F 3 "~" H 4700 1500 50  0001 C CNN
+	1    4700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 5EDE1E0A
+P 4700 1950
+F 0 "J5" H 4780 1942 50  0000 L CNN
+F 1 "Conn_01x02" H 4780 1851 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_Wuerth_691311400102_P7.62mm" H 4700 1950 50  0001 C CNN
+F 3 "~" H 4700 1950 50  0001 C CNN
+	1    4700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5EDE22B3
+P 4500 1200
+F 0 "#PWR06" H 4500 950 50  0001 C CNN
+F 1 "GND" H 4505 1027 50  0000 C CNN
+F 2 "" H 4500 1200 50  0001 C CNN
+F 3 "" H 4500 1200 50  0001 C CNN
+	1    4500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5EDE27F5
+P 4500 1600
+F 0 "#PWR08" H 4500 1350 50  0001 C CNN
+F 1 "GND" H 4505 1427 50  0000 C CNN
+F 2 "" H 4500 1600 50  0001 C CNN
+F 3 "" H 4500 1600 50  0001 C CNN
+	1    4500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5EDE2A9C
+P 4500 2050
+F 0 "#PWR010" H 4500 1800 50  0001 C CNN
+F 1 "GND" H 4505 1877 50  0000 C CNN
+F 2 "" H 4500 2050 50  0001 C CNN
+F 3 "" H 4500 2050 50  0001 C CNN
+	1    4500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5EDE2DFA
+P 2500 3400
+F 0 "#PWR01" H 2500 3150 50  0001 C CNN
+F 1 "GND" H 2505 3227 50  0000 C CNN
+F 2 "" H 2500 3400 50  0001 C CNN
+F 3 "" H 2500 3400 50  0001 C CNN
+	1    2500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR02
+U 1 1 5EDE3FCD
+P 3000 3400
+F 0 "#PWR02" H 3000 3250 50  0001 C CNN
+F 1 "+12V" H 3015 3573 50  0000 C CNN
+F 2 "" H 3000 3400 50  0001 C CNN
+F 3 "" H 3000 3400 50  0001 C CNN
+	1    3000 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR09
+U 1 1 5EDE47F7
+P 4500 1950
+F 0 "#PWR09" H 4500 1800 50  0001 C CNN
+F 1 "+12V" V 4515 2078 50  0000 L CNN
+F 2 "" H 4500 1950 50  0001 C CNN
+F 3 "" H 4500 1950 50  0001 C CNN
+	1    4500 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+12V #PWR07
+U 1 1 5EDE4F50
+P 4500 1500
+F 0 "#PWR07" H 4500 1350 50  0001 C CNN
+F 1 "+12V" V 4515 1628 50  0000 L CNN
+F 2 "" H 4500 1500 50  0001 C CNN
+F 3 "" H 4500 1500 50  0001 C CNN
+	1    4500 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR05
+U 1 1 5EDE577A
+P 4500 1100
+F 0 "#PWR05" H 4500 950 50  0001 C CNN
+F 1 "+5V" V 4515 1228 50  0000 L CNN
+F 2 "" H 4500 1100 50  0001 C CNN
+F 3 "" H 4500 1100 50  0001 C CNN
+	1    4500 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5EDE605E
+P 3000 2700
+F 0 "#FLG0101" H 3000 2775 50  0001 C CNN
+F 1 "PWR_FLAG" V 3000 2828 50  0000 L CNN
+F 2 "" H 3000 2700 50  0001 C CNN
+F 3 "~" H 3000 2700 50  0001 C CNN
+	1    3000 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDPWR #PWR0101
+U 1 1 5EDE6DAE
+P 2500 2700
+F 0 "#PWR0101" H 2500 2500 50  0001 C CNN
+F 1 "GNDPWR" V 2504 2591 50  0000 R CNN
+F 2 "" H 2500 2650 50  0001 C CNN
+F 3 "" H 2500 2650 50  0001 C CNN
+	1    2500 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:ATX-24 J1
+U 1 1 5EDEC2F8
+P 2650 1250
+F 0 "J1" H 2650 1917 50  0000 C CNN
+F 1 "ATX-24" H 2650 1826 50  0000 C CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-794072-x_2x12_P4.14mm_Vertical" H 2650 1150 50  0001 C CNN
+F 3 "https://www.intel.com/content/dam/www/public/us/en/documents/guides/power-supply-design-guide-june.pdf#page=33" H 5050 700 50  0001 C CNN
+	1    2650 1250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3150 1650
+NoConn ~ 3150 1350
+NoConn ~ 3150 1250
+NoConn ~ 3150 850 
+Wire Wire Line
+	2150 850  2150 1850
+Wire Wire Line
+	2150 1850 2650 1850
+$Comp
+L power:+5V #PWR011
+U 1 1 5EDED8EE
+P 3150 1150
+F 0 "#PWR011" H 3150 1000 50  0001 C CNN
+F 1 "+5V" V 3165 1278 50  0000 L CNN
+F 2 "" H 3150 1150 50  0001 C CNN
+F 3 "" H 3150 1150 50  0001 C CNN
+	1    3150 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR04
+U 1 1 5EDEE285
+P 3150 1050
+F 0 "#PWR04" H 3150 900 50  0001 C CNN
+F 1 "+12V" V 3165 1178 50  0000 L CNN
+F 2 "" H 3150 1050 50  0001 C CNN
+F 3 "" H 3150 1050 50  0001 C CNN
+	1    3150 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5EDEEC8E
+P 2650 1850
+F 0 "#PWR03" H 2650 1600 50  0001 C CNN
+F 1 "GND" H 2655 1677 50  0000 C CNN
+F 2 "" H 2650 1850 50  0001 C CNN
+F 3 "" H 2650 1850 50  0001 C CNN
+	1    2650 1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 2650 1850
+$Comp
+L Connector_Generic:Conn_02x02_Top_Bottom J2
+U 1 1 5EDEF7FB
+P 2700 2700
+F 0 "J2" H 2750 2917 50  0000 C CNN
+F 1 "Conn_02x02_Top_Bottom" H 2750 2826 50  0000 C CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770874-x_2x02_P4.14mm_Vertical" H 2700 2700 50  0001 C CNN
+F 3 "~" H 2700 2700 50  0001 C CNN
+	1    2700 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 2800 2500 3150
+Wire Wire Line
+	3000 2800 3000 3150
+$Comp
+L Connector_Generic:Conn_02x02_Top_Bottom J6
+U 1 1 5EDF06C5
+P 2700 3150
+F 0 "J6" H 2750 3367 50  0000 C CNN
+F 1 "Conn_02x02_Top_Bottom" H 2750 3276 50  0000 C CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770874-x_2x02_P4.14mm_Vertical" H 2700 3150 50  0001 C CNN
+F 3 "~" H 2700 3150 50  0001 C CNN
+	1    2700 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 3250 2500 3400
+Wire Wire Line
+	3000 3250 3000 3400
+Wire Wire Line
+	2500 2700 2500 2800
+Connection ~ 2500 2700
+Connection ~ 2500 2800
+Wire Wire Line
+	3000 2700 3000 2800
+Connection ~ 3000 2700
+Connection ~ 3000 2800
+Wire Wire Line
+	3000 3150 3000 3250
+Connection ~ 3000 3150
+Connection ~ 3000 3250
+Wire Wire Line
+	2500 3150 2500 3250
+Connection ~ 2500 3150
+Connection ~ 2500 3250
+$EndSCHEMATC
